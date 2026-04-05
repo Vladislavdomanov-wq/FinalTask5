@@ -8,7 +8,7 @@ public class FragileParcelTest {
         FragileParcel fragileParcel = new FragileParcel("Посуда", 12,
                 "Восточная", 3);
 
-        int shippingCost = 9;
+        int shippingCost = 12;
 
         int actualResult = fragileParcel.calculateDeliveryCost();
 
@@ -32,7 +32,7 @@ public class FragileParcelTest {
         FragileParcel fragileParcel = new FragileParcel("Посуда", 12,
                 "Восточная", -3);
 
-        int shippingCost = -9;
+        int shippingCost = -12;
 
         int actualResult = fragileParcel.calculateDeliveryCost();
 

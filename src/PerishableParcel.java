@@ -1,6 +1,6 @@
 public class PerishableParcel extends Parcel {
     private int timeToLive;
-    final static int PRICE = 4;// срок годности
+   private final static int PRICE = 3;// срок годности
 
     public PerishableParcel(String description, int sendDay, String deliveryAddress, int weight, int timeToLive) {
         super(description, sendDay, deliveryAddress, weight, PRICE);

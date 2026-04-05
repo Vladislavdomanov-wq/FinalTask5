@@ -9,7 +9,7 @@ public class PerishableParcelTest {
         PerishableParcel perishableParcel = new PerishableParcel("Рыба", 16, "Красно-Армейская",
                 10, 5);
 
-        int shippingCost = 40;
+        int shippingCost = 30;
 
         int actualResult = perishableParcel.calculateDeliveryCost();
 
@@ -33,7 +33,7 @@ public class PerishableParcelTest {
         PerishableParcel perishableParcel = new PerishableParcel("Рыба", 16, "Красно-Армейская",
                 -10, 5);
 
-        int shippingCost = -40;
+        int shippingCost = -30;
 
         int actualResult = perishableParcel.calculateDeliveryCost();
 
